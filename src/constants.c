@@ -3,15 +3,15 @@
 #include <netinet/in.h>
 #include <fcntl.h>
 
-socket		= SYS_socket
-bind		= SYS_bind
-listen		= SYS_listen
-accept		= SYS_accept
-read		= SYS_read
-write		= SYS_write
-open		= SYS_open
-exit		= SYS_exit
-close		= SYS_close
-af_inet		= AF_INET
-sock_stream	= SOCK_STREAM
-o_rdonly	= O_RDONLY
+socket = SYS_socket
+bind = SYS_bind
+listen = SYS_listen
+accept = SYS_accept
+read = SYS_read
+write = SYS_write
+open = SYS_open
+exit = SYS_exit
+close = SYS_close
+af_inet = AF_INET
+sock_stream = SOCK_STREAM
+o_rdonly = O_RDONLY
