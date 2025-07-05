@@ -57,7 +57,7 @@ accept_loop:
 	MOV RAX, accept
 	SYSCALL
 
-	MOV r13, RAX  ; Save client socket fd
+	MOV r13, RAX ; Save client socket fd
 
 	; Read from client
 	MOV RDI, r13
@@ -72,7 +72,7 @@ accept_loop:
 	MOV RAX, open
 	SYSCALL
 
-	MOV r14, RAX  ; Save file
+	MOV r14, RAX ; Save file
 
 	; Read from file
 	MOV RDI, r14
